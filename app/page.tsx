@@ -15,8 +15,8 @@ export default function LongDistanceWebsite() {
   // Polaroid photos state
   const [currentPhoto, setCurrentPhoto] = useState(0);
   const memories = [
-    { image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=600&q=80", caption: "Our favourite long night talk" },
-    { image: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=600&q=80", caption: "Remember our badminton date?" },
+    { image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=600&q=80", caption: "Our cafeteria lunch and those warm little laughs" },
+    { image: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=600&q=80", caption: "Remember our university date?" },
     { image: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=600&q=80", caption: "Counting down to more moments like this" },
   ];
 
@@ -94,7 +94,7 @@ export default function LongDistanceWebsite() {
           animate={{ opacity: 1, scale: 1 }}
           className="text-center max-w-md flex flex-col items-center"
         >
-          <h2 className="text-3xl font-bold text-stone-700 mb-6 font-serif">10 km between us</h2>
+          <h2 className="text-3xl font-bold text-stone-700 mb-6 font-serif">6 km between us</h2>
 
           {/* Map Card */}
           <div className="w-[360px] sm:w-[420px] h-56 bg-white/90 rounded-[28px] shadow-[0_20px_60px_rgba(244,114,182,0.12)] border border-pink-100 relative flex items-center justify-center mb-6 overflow-hidden backdrop-blur-sm">
@@ -181,7 +181,7 @@ export default function LongDistanceWebsite() {
             transition={{ duration: 0.4, delay: 0.08 }}
             className="text-3xl font-bold text-stone-700 mb-7 font-serif"
           >
-            14 Aug, 2026
+            27 June
           </motion.h3>
 
           <motion.div
@@ -197,7 +197,7 @@ export default function LongDistanceWebsite() {
               transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
               className="relative z-10"
             >
-              <div className="text-[5.5rem] sm:text-[6rem] font-black text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-rose-400 tracking-[-0.08em] mb-2 font-serif leading-none">3</div>
+              <div className="text-[5.5rem] sm:text-[6rem] font-black text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-rose-400 tracking-[-0.08em] mb-2 font-serif leading-none">1</div>
               <div className="text-xs font-semibold text-stone-400 uppercase tracking-[0.35em] mb-4">Days Ago</div>
               <p className="text-base sm:text-lg text-stone-500 italic font-medium leading-relaxed">
                 And I’ve missed you every single one of them.
