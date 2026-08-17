@@ -181,7 +181,7 @@ export default function LongDistanceWebsite() {
             transition={{ duration: 0.4, delay: 0.08 }}
             className="text-3xl font-bold text-stone-700 mb-7 font-serif"
           >
-            27 June
+            27 June 2026
           </motion.h3>
 
           <motion.div
@@ -197,7 +197,7 @@ export default function LongDistanceWebsite() {
               transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
               className="relative z-10"
             >
-              <div className="text-[5.5rem] sm:text-[6rem] font-black text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-rose-400 tracking-[-0.08em] mb-2 font-serif leading-none">1</div>
+              <div className="text-[5.5rem] sm:text-[6rem] font-black text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-rose-400 tracking-[-0.08em] mb-2 font-serif leading-none">51</div>
               <div className="text-xs font-semibold text-stone-400 uppercase tracking-[0.35em] mb-4">Days Ago</div>
               <p className="text-base sm:text-lg text-stone-500 italic font-medium leading-relaxed">
                 And I’ve missed you every single one of them.
